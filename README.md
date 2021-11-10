@@ -35,7 +35,7 @@ Uma caracteristica das camadas de uma imagem docker é que todas elas, exceto a 
 
 <br>
 
-*[Rodando os exemplos - SEM SOM](https://youtu.be/bCojDwskknQ)*
+*[Rodando os exemplos - SEM SOM](https://youtu.be/FhinDgIPCW8)*
 
 
 ## Referencias
