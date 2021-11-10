@@ -20,7 +20,7 @@ Container é um processo, que é executado isolado dos outros dentro da máquina
 ## Camadas
 
 <p align="center">
-    <img width="250" height="250" src="./source/images/camadas-dockerfile.png"/>
+    <img width="450" height="250" src="./source/images/camadas-dockerfile.png"/>
 <p>
 
 Camadas são imagens parciais criadas por cada comando dentro do dockerfile (eg. RUN, COPY, ADD, etc), o conjunto de imagens formam a imagem final construída pelo dockerfile. Essas camadas são muito importantes para a otimização da utilização de recursos pela parte do docker e são o que torna possível uma das maiores vantagens do docker dentro do ambiente produtivo, se dois containeres utilizarem a mesma camada ela não será duplicada, ambos os containers irão compartilhar a mesma camada, isso faz com que aplicações em ambiete **PaaS** utilizem de forma mais eficiente os recursos quando comparadas com a mesma plataforma em ambiente **IaaS**.
